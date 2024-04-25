@@ -29,7 +29,6 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
 import com.google.firebase.auth.FirebaseAuthInvalidUserException;
 import com.google.firebase.auth.FirebaseUser;
-import com.jktech.edutransit_app.home.HomeFragment;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -188,7 +187,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void navigateToHome() {
-        Intent intent = new Intent(LoginActivity.this, MainActivity2.class);
+        Intent intent = new Intent(LoginActivity.this, navigationdrawer.class);
         startActivity(intent);
         finish();
     }

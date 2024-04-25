@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+
         // Open Register Activity
         TextView textViewRegister = findViewById(R.id.textView_register_link);
         textViewRegister.setOnClickListener(new View.OnClickListener() {
