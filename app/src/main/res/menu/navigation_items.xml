@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/optProfile"
+        android:title="Profile"
+        android:icon="@drawable/usericon"/>
+
+    <item
+        android:id="@+id/optHome"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+
+    <item
+        android:id="@+id/optLocation"
+        android:title="Location"
+        android:icon="@drawable/locationlogo"/>
+
+    <item
+        android:id="@+id/optContactUs"
+        android:title="Contact Us"
+        android:icon="@drawable/contactuslogo"/>
+
+    <item
+        android:id="@+id/optAbtus"
+        android:title="About Us"
+        android:icon="@drawable/aboutuslogo"/>
+
+
+    <item
+        android:id="@+id/optFAQ"
+        android:title="FAQ about APP"
+        android:icon="@drawable/faqlog"/>
+
+    <item
+        android:id="@+id/optTerms"
+        android:title="Terms and Conditions"
+        android:icon="@drawable/termsconditions"/>
+
+    <item
+        android:id="@+id/optShare"
+        android:title="Share with Friends"
+        android:icon="@drawable/shareicon"/>
+
+
+
+    <item
+        android:id="@+id/optSettings"
+        android:title="Settings"
+        android:icon="@drawable/icons_settings"/>
+
+
+</menu>
+
+
+    <!--    <item-->
+    <!--        android:id="@+id/optLogout"-->
+    <!--        android:title="Log out"/>-->
