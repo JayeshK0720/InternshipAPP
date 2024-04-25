@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.jktech.edutransit_app.MainActivity">
+        <action
+            android:id="@+id/action_mainActivity_to_loginActivity"
+            app:destination="@id/loginActivity" />
+        <action
+            android:id="@+id/action_mainActivity_to_registerActivity"
+            app:destination="@id/registerActivity" />
+    </activity>
+
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.jktech.edutransit_app.LoginActivity">
+        <!-- Removed action to avoid the error -->
+    </activity>
+
+    <activity
+        android:id="@+id/registerActivity"
+        android:name="com.jktech.edutransit_app.RegisterActivity">
+        <action
+            android:id="@+id/action_registerActivity_to_homeActivity"
+            app:destination="@id/homeActivity" />
+    </activity>
+
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="com.jktech.edutransit_app.MainActivity2">
+        <!-- Removed action to avoid the error -->
+    </activity>
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.jktech.edutransit_app.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_gallery"-->
+<!--        android:name="com.jktech.edutransit_app.gallery.GalleryFragment"-->
+<!--        android:label="@string/menu_gallery"-->
+<!--        tools:layout="@layout/fragment_gallery" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_slideshow"-->
+<!--        android:name="com.jktech.edutransit_app.slideshow.SlideshowFragment"-->
+<!--        android:label="@string/menu_slideshow"-->
+<!--        tools:layout="@layout/fragment_slideshow" />-->
+
+    <fragment
+        android:id="@+id/fragmentA"
+        android:name="com.jktech.edutransit_app.home.FragmentA"
+        android:label="Create Ride"
+        tools:layout="@layout/fragment_a" />
+
+    <fragment
+        android:id="@+id/fragmentB"
+        android:name="com.jktech.edutransit_app.home.FragmentB"
+        android:label="Join Ride"
+        tools:layout="@layout/fragment_b" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/admin_requests_fragment"-->
+<!--        android:name="com.jktech.edutransit_app.slideshow.Admin_Request_Fragment"-->
+<!--        android:label="Admin Request Panel"-->
+<!--        tools:layout="@layout/admin_requests_fragment" />-->
+
+    <action
+        android:id="@+id/action_nav_home_to_fragmentA"
+        app:destination="@id/fragmentA" />
+
+    <action
+        android:id="@+id/action_nav_home_to_fragmentB"
+        app:destination="@id/fragmentB" />
+
+<!--    <action-->
+<!--        android:id="@+id/action_nav_adminlogin_to_adminreq"-->
+<!--        app:destination="@id/admin_requests_fragment" />-->
+
+</navigation>
