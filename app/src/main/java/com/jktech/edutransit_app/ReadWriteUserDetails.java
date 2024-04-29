@@ -4,7 +4,7 @@ public class ReadWriteUserDetails {
     public String email, gender, mobile;
 
     // empty constructor
-    public ReadWriteUserDetails(){};
+    public ReadWriteUserDetails(){}
 
     public ReadWriteUserDetails(String textEmail, String textGender, String textMobile){
         this.email = textEmail;

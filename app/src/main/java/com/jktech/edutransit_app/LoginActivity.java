@@ -19,8 +19,6 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -187,8 +185,8 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void navigateToHome() {
-        Intent intent = new Intent(LoginActivity.this, navigationdrawer.class);
+        Intent intent = new Intent(LoginActivity.this, NavigationDrawer.class);
         startActivity(intent);
-        finish();
+//        finish();
     }
 }
