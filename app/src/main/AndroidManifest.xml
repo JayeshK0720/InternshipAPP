@@ -15,94 +15,82 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Edutransit_App"
         tools:targetApi="31">
+        <activity android:name=".design"
+            android:exported="true"
+            android:theme="@style/AppTheme" >
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.DESIGN" />-->
 
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity android:name=".CreateRideActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".JoinRideActivity"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".contactus"
             android:exported="false"
             android:theme="@style/AppTheme" />
-
         <activity
             android:name=".shareapp"
             android:exported="false" />
-
         <activity
             android:name=".termcondi"
             android:exported="false" />
-
         <activity
             android:name=".aboutus"
             android:exported="false"
-            android:theme="@style/AppTheme" />
-
+            android:theme="@style/AppTheme" /> <!-- <activity -->
+        <!-- android:name=".JoinRideActivity" -->
+        <!-- android:theme="@style/AppTheme"/> -->
+        <!-- <activity -->
+        <!-- android:name=".CreateRideActivity" -->
+        <!-- android:theme="@style/AppTheme"/> -->
 <!--        <activity-->
-<!--            android:name=".JoinRideActivity"-->
-<!--            android:theme="@style/AppTheme"/>-->
+<!--            android:name=".ContentMainActivity"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.CONTENT_MAIN" />-->
 
-<!--        <activity-->
-<!--            android:name=".CreateRideActivity"-->
-<!--            android:theme="@style/AppTheme"/>-->
-
-        <!-- NavigationDrawerActivity -->
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity> &lt;!&ndash; NavigationDrawerActivity &ndash;&gt;-->
         <activity
             android:name=".NavigationDrawer"
             android:exported="false">
-            <!--            <intent-filter>-->
-            <!--                <action android:name="android.intent.action.NAVIGATIONDRAWER" />-->
 
-            <!--                <category android:name="android.intent.category.LAUNCHER" />-->
-            <!--            </intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.NAVIGATIONDRAWER" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
-
-        <activity
-            android:name=".ContentMainActivity"
-            android:exported="true"
-            android:theme="@style/AppTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.CONTENT_MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
         <activity
             android:name=".ChangePasswordActivity"
-            android:theme="@style/AppTheme">
-        </activity>
-
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".UpdateEmailActivity"
-            android:theme="@style/AppTheme">
-        </activity>
-
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".UpdateProfileActivity"
-            android:theme="@style/AppTheme">
-        </activity>
-
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".UploadProfilePictureActivity"
-            android:theme="@style/AppTheme">
-        </activity>
-
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".ForgotPasswordActivity"
-            android:theme="@style/AppTheme">
-        </activity>
-
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".UserProfileActivity"
-            android:theme="@style/AppTheme">
-        </activity>
-
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".LoginActivity"
-            android:theme="@style/AppTheme">
-        </activity>
-
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".RegisterActivity"
-            android:theme="@style/AppTheme">
-        </activity>
-
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
