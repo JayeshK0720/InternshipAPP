@@ -8,7 +8,8 @@
     </style>
 
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here -->
+        <item name="android:statusBarColor">#000</item>
+<!--        <item name="menuIcon">@drawable/baseline_menu_24</item>-->
     </style>
 
     <style name="Theme.Edutransit_App" parent="Base.Theme.Edutransit_App" />

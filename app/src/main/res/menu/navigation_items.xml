@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <group android:checkableBehavior="single">
     <item
         android:id="@+id/optProfile"
         android:title="Profile"
@@ -42,7 +43,7 @@
         android:title="Share with Friends"
         android:icon="@drawable/shareicon"/>
 
-
+    </group>
 
     <item
         android:id="@+id/optSettings"
