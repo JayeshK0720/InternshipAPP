@@ -51,6 +51,8 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
     implementation("com.squareup.picasso:picasso:2.8")
 
+    implementation ("de.hdodenhof:circleimageview:3.1.0")
+
     implementation ("com.airbnb.android:lottie:6.3.0")
     implementation("androidx.navigation:navigation-fragment:2.7.7")
     implementation("androidx.navigation:navigation-ui:2.7.7")
